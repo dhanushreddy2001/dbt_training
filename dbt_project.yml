@@ -42,7 +42,7 @@ models:
       +materialized: table
     staging:
       +materialized: table
-      +schema: jaffle_shop
+      +schema: jaffle_shop_stage
     marts:
       +materialized: table
-      +schema: jaffle_shop
+      +schema: jaffle_shop_marts
